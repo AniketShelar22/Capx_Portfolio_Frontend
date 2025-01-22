@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/dashboard';  // Adjust the URL to match your backend
+const API_URL = 'https://capx-portfolio-backend.onrender.com/api/dashboard';  // Adjust the URL to match your backend
 
 export const getDashboardData = async () => {
     try {
