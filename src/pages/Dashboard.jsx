@@ -35,7 +35,7 @@ const Dashboard = () => {
   };
 
   // Use placeholder data if no data is fetched or if there is an error
-  const { totalPortfolioValue, topPerformingStock, portfolioDistribution } =
+  const { totalPortfolioValue,  portfolioDistribution } =
     error || isLoading ? placeholderData : dashboardData;
 
   // Safe check before calling toFixed
