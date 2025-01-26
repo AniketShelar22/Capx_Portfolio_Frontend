@@ -95,14 +95,14 @@ const Dashboard = () => {
         </motion.div>
 
         {/* You can add another card for more information or visuals */}
-        <motion.div
+        {/* <motion.div
           className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform"
           whileHover={{ scale: 1.05, y: -10 }}
           whileTap={{ scale: 0.95 }}
         >
           <h3 className="text-xl font-semibold">Additional Information</h3>
           <p className="text-md text-gray-600">Add more insights here.</p>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Loading and Error State Enhancements */}
