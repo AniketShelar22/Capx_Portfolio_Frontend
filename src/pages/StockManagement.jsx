@@ -87,6 +87,14 @@ const StockManagement = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
           Stock Management
         </h2>
+        {/* Note Box */}
+        <div className="bg-yellow-100 p-4 rounded-lg shadow mb-6">
+          <p className="text-gray-700 font-semibold">Note:</p>
+          <ul className="list-disc pl-5 text-gray-600">
+            <li>This App is using Alpha Vantage API for Real-time data.</li>
+            <li>The daily limit for data fetching is 25 responses per day, hence the refresh time for real-time data is 10 min.</li>
+          </ul>
+        </div>
         {loading && <p className="text-center text-gray-600">Loading stocks...</p>}
         {error && <p className="text-center text-red-600">{error}</p>}
 
@@ -141,6 +149,8 @@ const StockManagement = () => {
             ${totalPortfolioValue.toFixed(2)}
           </p>
         </div>
+        
+        
 
         {/* Stocks Table */}
         <div className="overflow-x-auto">
