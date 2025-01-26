@@ -65,24 +65,24 @@ const Dashboard = () => {
     <div className="p-6 bg-gray-50">
       <h2 className="text-2xl font-bold mb-4">Portfolio Dashboard</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* <motion.div
+        <motion.div
           className="bg-white p-4 rounded shadow"
           whileHover={{ scale: 1.05, y: -10 }}
           whileTap={{ scale: 0.95 }}
-        > */}
+        >
           <h3 className="text-xl font-semibold">Total Portfolio Value</h3>
           <p className="text-2xl font-bold text-green-600">
             ${safeToFixed(totalPortfolioValue)}
           </p>
-        {/* </motion.div> */}
+        </motion.div>
 
         
 
-        {/* <motion.div
+        <motion.div
           className="bg-white p-4 rounded shadow"
           whileHover={{ scale: 1.05, y: -10 }}
           whileTap={{ scale: 0.95 }}
-        > */}
+        >
           <h3 className="text-xl font-semibold">Portfolio Distribution</h3>
           {portfolioDistribution.length > 0 ? (
             <div className="mt-4">
@@ -98,7 +98,7 @@ const Dashboard = () => {
           ) : (
             <p className="text-md text-gray-600">No data available</p>
           )}
-        {/* </motion.div> */}
+        </motion.div>
       </div>
     </div>
   );
