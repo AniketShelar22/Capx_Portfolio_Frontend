@@ -14,7 +14,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/dashboard"); // Adjust URL as needed
+        const response = await axios.get("https://capx-portfolio-backend.onrender.com/api/dashboard"); // Adjust URL as needed
         setDashboardData(response.data);
         setIsLoading(false);
       } catch (err) {
