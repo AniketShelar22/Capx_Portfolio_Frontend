@@ -1,0 +1,165 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.page-header {
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner-layer {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inner-layer h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.inner-layer p,
+.inner-layer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.inner-layer ul li {
+  margin: 5px 0;
+}
+
+.page-footer {
+  width: 100%;
+  text-align: left;
+  margin-top: 40px;
+}
+
+
+
+.contact-page {
+    padding: 2rem;
+    text-align: center;
+    animation: fadeIn 0.8s ease;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+  }
+  
+  .contact-form:hover {
+    transform: scale(1.02);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+  }
+  
+  .submit-btn {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+  }
+  
+  .success-message {
+    color: #4caf50;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #f44336;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

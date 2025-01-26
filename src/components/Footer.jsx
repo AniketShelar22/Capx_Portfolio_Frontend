@@ -1,9 +1,10 @@
 import React from "react";
+import "./../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4 text-center">
-      <p>&copy; 2025 Portfolio Tracker. All rights reserved.</p>
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Portfolio Tracker. All rights reserved.</p>
     </footer>
   );
 };
