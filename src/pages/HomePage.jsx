@@ -8,7 +8,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const handleGetStarted = () => {
-    navigate('/stock-management');
+    navigate('/stockmanagement');
   };
 
   return (
@@ -20,7 +20,7 @@ const HomePage = () => {
         transition={{ duration: 1 }}
       >
         <h1 className="hero-title" style={{ fontSize: '3rem', color: '#4CAF50', textShadow: '2px 2px 4px #000000' }}>
-            Stocks Real Time 
+        Simplify your stock tracking and management
         </h1>
         <p className="hero-subtitle" style={{ fontSize: '1.5rem', color: '#FF9800', marginTop: '10px' }}>
           Crafting Innovative Solutions for the Future
