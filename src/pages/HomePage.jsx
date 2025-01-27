@@ -23,8 +23,7 @@ const HomePage = () => {
         Simplify your stock tracking and management
         </h1>
         <p className="hero-subtitle" style={{ fontSize: '1.5rem', color: '#FF9800', marginTop: '10px' }}>
-          Crafting Innovative Solutions for the Future
-        </p>
+        Revolutionizing portfolio tracking with real-time stock management solutions for seamless and accurate investment oversight        </p>
         <motion.button
           className="cta-button"
           initial={{ scale: 0 }}
